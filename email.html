@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/footer.css">
+        
+        <!--favicon-->
+        <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        
+        <style>
+          .textoA{
+            font-family: 'Arial';
+            text-align: justify;
+          }
+          
+          .tituloA{
+            color: grey;
+          }
+          
+          .botonA, .botonB {
+            background-color: grey;
+            border: none;
+            border-radius: 10px;
+            width: 8rem;
+            padding: 10px;
+            color: white;
+          }
+        </style>
+    </head>
+        
+  
+    <!-- Content -->
+    <body>
+        <!--Menu-->
+        <div class="header">
+          <div class="containers">
+             <ul class="nav">
+
+            </ul>
+          </div>
+        </div>
+        <!-- Fin Menu-->
+
+        <div class="jumbotron">
+            <div class="container">
+               <div class="row">
+                  <div class="col-5">
+                    <p class="textoA">Nuestros proyectos son desarrollados teniendo en
+                        cuenta las necesidades de posicionamiento de sus 
+                        marcas,  con  contenidos  científicos  de  excelente 
+                        calidad, diseño actual que permita captar la 
+                        atención de su grupo objetivo, en el formato de su
+                        preferencia. <br> <br>
+                        Brindamos a nuestros clientes calidez y 
+                        seguimiento muy cercano a sus necesidades,
+                        óptima calidad, agilidad y compromiso en sus 
+                        requerimientos  y  toda  nuestra  experiencia  en  el 
+                        manejo de sus proyectos.</p>
+                    <h3 class="tituloA">PROYECTOS</h3>
+                    <br>
+                    <button class="botonA">Ver Word</button>
+                    <br>
+                    <br>
+                    <button class="botonB">Ver PDF</button>
+                  </div>
+                  <div class="col-7">
+                    <div align="center" id="viewer"> </div>
+                        <!-- The iFrame and Vault Viewer will replace the above <div> tag. Please note that the
+                        id of the <div> matches the first parameter of the viewer constructor -->
+                        <script>
+                        var tag = document.createElement('script');
+                        tag.src = "//js.veevavault.com/vault.js";
+                        var firstScriptTag = document.getElementsByTagName('script')[0];
+                        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+                        // This function creates an <iframe> (and vault viewer)
+                        // after the API code downloads.
+                        var viewer;
+                        function onVeevaVaultIframeAPIReady() {
+                        viewer = new VV.Viewer('viewer', {
+                        height: '630',
+                        width: '712',
+                        error: 'We\'re sorry. The document you are trying to view is not available..'
+                        });
+                        }
+                        </script>
+                    
+                    
+                  </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="nav-mobile">
+          
+          <div class="mobile-active piece">
+            <img id="inicio" class="size-icon" src="images\iconosmenu\inactivos\web-home.png">
+            <a href="index.html">INICIO <span>&#10095;</span></a>
+          </div>
+          
+          <div class="piece">
+            <img id="inicio" class="size-icon" src="images\iconosmenu\inactivos\web-somos.png">
+             <a href="somos.html">QUIÉNES SOMOS<span></span></a>
+          </div>
+          
+          <div class="piece">
+            <img id="inicio" class="size-icon" src="images\iconosmenu\inactivos\web-productos.png">
+            <a href="productos.html">PRODUCTOS Y SERVICIOS<span></span></a>
+          </div>
+          
+          <div class="piece">
+            <img id="inicio" class="size-icon" src="images\iconosmenu\inactivos\web-clientes.png">
+             <a href="clientes.html">CLIENTES<span></span></a>
+          </div>
+          
+           <div class="piece">
+            <img id="inicio" class="size-icon" src="images\iconosmenu\inactivos\web-contacto.png">
+             <a href="contacto.html">CONTACTO<span></span></a>
+          </div>
+          
+        </div>
+      
+        <!--Footer-->
+        <footer>
+          <div class="container">
+            <div class="row row_fix">
+              <div class="col-md-1 mobilesize_a">
+                <img src="images/banderas-80.png" class="country">
+              </div>
+              <div class="col-md-4  boxfooter mobilesize_b">
+                  SEDE COLOMBIA<br>
+                 + 57 (1) 629 9087 / 348 4900<br>
+                  Av. Carrera 15 No. 124 - 91. Oficina 409 - Bogotá
+              </div>
+              <div class="col-md-1 mobilesize_a foot_fix" >
+                <img src="images/banderas-81.png" class="country" >
+              </div>
+              <div class="col-md-4 boxfooter mobilesize_b">
+                SEDE CHILE<br>
+                 + 56 (9) 900-17215<br>
+                 Pedro de Valdiviia 1215. Oficina 308. Santiago.
+              </div>
+              <div class="col-md-2 middle foot_fix_b">
+                <span class="footbold">&copy; MediScience Group 2018</span>
+              </div>
+            </div>
+      </div>
+      </footer>
+       
+      
+    
+        
+    </body>
+    <!-- End Content -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <sript src="assets/js/change_img.js"></sript>
+    <script>
+      
+    </script>
+  
+  </body>
+</html>

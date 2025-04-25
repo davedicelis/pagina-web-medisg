@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/nav.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+
+
+
+    <!--favicon-->
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+
+</head>
+
+
+<!-- Content -->
+
+<body>
+
+    <!--Menu-->
+    <div class="header">
+        <div class="containers">
+            <ul class="nav">
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">
+                        <img id="inicio" class="size-icon" src="images\iconosmenu\inactivos\web-home.png">
+                        <span>INICIO</span>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="somos.html">
+                        <img class="size-icon" src="images\iconosmenu\inactivos\web-somos.png">
+                        <span>QUIÉNES SOMOS</span>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="productos.html">
+                        <img class="size-icon" src="images\iconosmenu\activos\web-productos.png">
+                        <span>PRODUCTOS/SERVICIOS</span>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="clientes.html">
+                        <img class="size-icon" src="images\iconosmenu\inactivos\web-clientes.png">
+                        <span>CLIENTES</span>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="contacto.html">
+                        <img class="size-icon" src="images\iconosmenu\inactivos\web-contacto.png">
+                        <span>CONTACTO</span>
+                    </a>
+                </li>
+
+
+            </ul>
+        </div>
+    </div>
+    <!-- Fin Menu-->
+
+
+
+    <!--Content-->
+    <div class="jumbotron">
+
+
+
+        <div class="container">
+
+
+            <div class="fix_products_title">
+                <img src="images/iconosmenu/inactivos/web-somos.png" style="width:150px;margin-left:-70px; "></img>
+                <a class="ti">PRODUCTOS/SERVICIOS</a>
+            </div>
+            <div class="row Products_Container">
+                <div class="col-6 one ">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col blue under-below">Digital</div>
+                            <div class="col blue under-below">Impreso</div>
+                        </div>
+                        <div class="row ">
+                            <div class="col products black" id="product_txt_1" onclick="change('av-veeva', this.id, '7', 'icon_1')"><img src="images/iconosP/activos/av-veeva.png" style="width:80px" id="icon_1" class="icon_active">AYUDAS VISUALES VEEVA</div>
+                            <div class="col products" id="product_txt_2" onclick="change('folletos', this.id, '4', 'icon_2')"><img src="images/iconosP/inactivos/folletos.png" style="width:80px" id="icon_2" class="">FOLLETOS CIENTÍFICOS</div>
+                        </div>
+                        <div class="row ">
+                            <div class="col products" id="product_txt_3" onclick="change('av-app', this.id, '4', 'icon_3')"><img src="images/iconosP/inactivos/av-app.png" style="width:80px" id="icon_3">AYUDAS VISUALES APP</div>
+                            <div class="col products" id="product_txt_4" onclick="change('carpetas', this.id, '4', 'icon_4')"><img src="images/iconosP/inactivos/carpetas.png" style="width:80px" id="icon_4">CARPETAS RESUMEN</div>
+                        </div>
+                        <div class="row ">
+                            <div class="col products" id="product_txt_5" onclick="change('pdf', this.id, '3', 'icon_5')"><img src="images/iconosP/inactivos/pdf.png" style="width:80px" id="icon_5">PDFS INTERACTIVOS </div>
+                            <div class="col products" id="product_txt_6" onclick="change('bolsillo', this.id, '2', 'icon_6')"><img src="images/iconosP/inactivos/bolsillo.png" style="width:80px" id="icon_6">FORMATOS DE BOLSILLO</div>
+                        </div>
+                        <div class="row ">
+                            <div class="col products" id="product_txt_7" onclick="change('apps', this.id, '6', 'icon_7')"><img src="images/iconosP/inactivos/apps.png" style="width:80px" id="icon_7">APPS MÉDICOS/PACIENTES</div>
+                            <div class="col products" id="product_txt_8" onclick="change('rotafolio', this.id, '3', 'icon_8')"><img src="images/iconosP/inactivos/rotafolio.png" style="width:80px" id="icon_8">ROTAFOLIOS</div>
+                        </div>
+                        <div class="row ">
+                            <div class="col products" id="product_txt_9" onclick="change('e-learning', this.id, '1', 'icon_9')"><img src="images/iconosP/inactivos/e-learning.png" style="width:80px" id="icon_9">E-LEARNING</div>
+                            <div class="col products" id="product_txt_10" onclick="change('afiches', this.id, '3', 'icon_10')"><img src="images/iconosP/inactivos/afiches.png" style="width:80px" id="icon_10">AFICHES</div>
+                        </div>
+                        <div class="row ">
+                            <div class="col products" id="product_txt_11" onclick="change('3d', this.id, '1', 'icon_11')"><img src="images/iconosP/inactivos/3d.png" style="width:80px" id="icon_11">VIDEOS 3D</div>
+                            <div class="col products" id="product_txt_12" onclick="change('materiales-pacientes', this.id, '5', 'icon_12')"><img src="images/iconosP/inactivos/materiales-pacientes.png" style="width:80px" id="icon_12">MATERIALES PARA PACIENTES</div>
+                        </div>
+                        <div class="row ">
+                            <div class="col products" id="product_txt_13" onclick="change('2d', this.id, '1', 'icon_13')"><img src="images/iconosP/inactivos/2d.png" style="width:80px" id="icon_13">VIDEOS 2D MOTION GRAPHIC</div>
+                            <div class="col products" id="product_txt_14" onclick="change('memorias', this.id, '6', 'icon_14')"><img src="images/iconosP/inactivos/memorias.png" style="width:80px" id="icon_14">CUBRIMIENTO Y MEMORIAS</div>
+                        </div>
+                        <div class="row ">
+                            <div class="col products" id="product_txt_15" onclick="change('aumentada', this.id, '1', 'icon_15')"><img src="images/iconosP/inactivos/aumentada.png" style="width:80px" id="icon_15">REALIDAD AUMENTADA</div>
+                            <div class="col products" id="product_txt_16" onclick="change('traducciones', this.id, '4', 'icon_16')"><img src="images/iconosP/inactivos/traducciones.png" style="width:80px" id="icon_16">TRADUCCIÓN CIENTÍFICA</div>
+                        </div>
+                        <div class="row ">
+                            <div class="col products" id="product_txt_17" onclick="change('virtual', this.id, '1', 'icon_17')"><img src="images/iconosP/inactivos/virtual.png" style="width:80px" id="icon_17"> REALIDAD VIRTUAL</div>
+                            <div class="col products" id="product_txt_18" onclick="change('reprints', this.id, '3', 'icon_18')"><img src="images/iconosP/inactivos/reprints.png" style="width:80px" id="icon_18"> REPRINTS / E-PRINTS </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-6 two">
+                    <div class="row">
+                        <div class="container">
+                            <div class="products_box  box_products img_active">
+                                <div class="container" id="show_products">
+                                    <img class="certification" src="images/certification/Veeva_Multichannel.png">
+                                    <img class="product_img current" id="product_1" src="images/productos/av-veeva/1.png">
+                                    <img class="product_img" id="product_2" src="images/productos/av-veeva/2.png">
+                                    <img class="product_img" id="product_3" src="images/productos/av-veeva/3.png">
+                                    <img class="product_img" id="product_4" src="images/productos/av-veeva/4.png">
+                                    <img class="product_img" id="product_5" src="images/productos/av-veeva/5.png">
+                                    <img class="product_img" id="product_6" src="images/productos/av-veeva/6.png">
+                                    <img class="product_img" id="product_7" src="images/productos/av-veeva/7.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="container">
+                            <div class="nav_box">
+                                <div class="container sbn-list">
+
+                                    <div class="sbn sbn01">
+                                        <ul id="list_products">
+                                            <li><a id="1" class="select is-active" onclick="nav(this.id)">1</a></li>
+                                            <li><a id="2" class="select" onclick="nav(this.id)">2</a></li>
+                                            <li><a id="3" class="select" onclick="nav(this.id)">3</a></li>
+                                            <li><a id="4" class="select" onclick="nav(this.id)">4</a></li>
+                                            <li><a id="5" class="select" onclick="nav(this.id)">5</a></li>
+                                            <li><a id="6" class="select" onclick="nav(this.id)">6</a></li>
+                                            <li><a id="7" class="select" onclick="nav(this.id)">7</a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" id="certification" style="display: block;">
+                        <div class="container">
+                            <br>
+                            <img class="cert_img cert_a" src="images/certification/Veeva_Agency.png">
+                            <br><br>
+                            <img class="cert_img cert_b" src="images/certification/Veeva_Email.png">
+                            <br><br>
+                            <img class="cert_img cert_c" src="images/certification/Veeva_Engage.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Contenet -->
+    <div class="nav-mobile">
+
+        <div class="mobile-active piece">
+            <img id="inicio" class="size-icon" src="images\iconosmenu\inactivos\web-home.png">
+            <a href="index.html">INICIO <span>&#10095;</span></a>
+        </div>
+
+        <div class="piece">
+            <img id="inicio" class="size-icon" src="images\iconosmenu\inactivos\web-somos.png">
+            <a href="somos.html">QUIÉNES SOMOS<span></span></a>
+        </div>
+
+        <div class="piece">
+            <img id="inicio" class="size-icon" src="images\iconosmenu\inactivos\web-productos.png">
+            <a href="productos.html">PRODUCTOS Y SERVICIOS<span></span></a>
+        </div>
+
+        <div class="piece">
+            <img id="inicio" class="size-icon" src="images\iconosmenu\inactivos\web-clientes.png">
+            <a href="clientes.html">CLIENTES<span></span></a>
+        </div>
+
+        <div class="piece">
+            <img id="inicio" class="size-icon" src="images\iconosmenu\inactivos\web-contacto.png">
+            <a href="contacto.html">CONTACTO<span></span></a>
+        </div>
+
+    </div>
+
+    <!--Footer-->
+    <footer>
+        <div class="container">
+            <div class="row row_fix">
+                <div class="col-md-1 mobilesize_a">
+                    <img src="images/banderas-80.png" class="country">
+                </div>
+                <div class="col-md-4  boxfooter mobilesize_b">
+                    SEDE COLOMBIA<br> + 57 (1) 629 9087 / 348 4900<br> Av. Carrera 15 No. 124 - 91. Oficina 409 - Bogotá
+                </div>
+                <div class="col-md-1 mobilesize_a foot_fix">
+                    <img src="images/banderas-81.png" class="country">
+                </div>
+                <div class="col-md-4 boxfooter mobilesize_b">
+                    SEDE CHILE<br> + 56 (9) 900-17215<br> Pedro de Valdiviia 1215. Oficina 308. Santiago.
+                </div>
+                <div class="col-md-2 middle foot_fix_b">
+                    <span class="footbold">&copy; MediScience Group 2018</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+<!-- End Content -->
+
+<!-- Optional JavaScript -->
+
+
+<script type="text/javascript">
+    //Imagen por defecto 
+
+    var last_id = ['product_txt_1'];
+    var last_icon = ['icon_1', 'av-veeva'];
+
+    //Funcion que cambia la imagen
+    function change(folder, id, elements, icon) {
+        document.getElementById(last_id).classList.remove("black");
+        //Parametros
+
+        var path = 'images/productos/';
+        var folder = folder;
+        var elements = elements;
+        var icon = icon;
+
+        if (folder == '2d') {
+            var my_html = `<video width="100%" height: 28em; class="video" controls>
+                              <source src="images/productos/2d/1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                            </video>`;
+        } else if (folder == '3d') {
+            var my_html = `<video width="100%" height: 28em; class="video" controls>
+                              <source src="images/productos/3d/1.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                                </video>`;
+        } else {
+            var my_html = `<img class="product_img current" id="product_1" src="` + path + folder + `/` + 1 + `.png">`;
+        }
+        var my_nav = `<li><a class="select is-active" id="1" onclick="nav(this.id)">1</a></li>`;
+
+
+        //Inserta el Codigo HTML de acuerdo al numero de elementos 
+        for (i = 2; i <= elements; i++) {
+            last_nav_id[0] = ['1'];
+            last_product_id[0] = ['product_1'];
+
+            my_html += `<img class="product_img" id="product_` + i + `" src="` + path + folder + `/` + i + `.png">`;
+            my_nav += `<li><a class="select" id="` + i + `" onclick="nav(` + i + `)">` + i + `</a></li>`;
+        }
+
+        document.getElementById('show_products').innerHTML = my_html;
+        document.getElementById('list_products').innerHTML = my_nav;
+
+        if (folder == 'av-veeva') {
+            cert_multi = `<img class="certification" src="images/certification/Veeva_Multichannel.png">`;
+            document.getElementById('show_products').innerHTML = cert_multi + my_html;
+            var x = document.getElementById("certification");
+            x.style.display = "block";
+        } else {
+            var x = document.getElementById("certification");
+            x.style.display = "none";
+        }
+
+
+        //Reslata el Texto  
+        var myTextClasses = document.getElementById(id).classList;
+        if (myTextClasses.contains("black")) {
+            myTextClasses.remove("black");
+        } else {
+            myTextClasses.add("black");
+        }
+
+        //Activas o Desactivar Icono
+        var myIcon = document.getElementById(icon);
+        var myLastIcon = document.getElementById(last_icon[0]);
+        var myIconClasses = document.getElementById(icon).classList;
+        console.log(last_icon[1])
+        myLastIcon.src = "images/iconosP/inactivos/" + last_icon[1] + ".png";
+        myIcon.src = "images/iconosP/activos/" + folder + ".png";
+
+
+
+
+        last_id[0] = id;
+        last_icon[0] = icon;
+        last_icon[1] = folder;
+
+    }
+</script>
+
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="assets/js/nav.js"></script>
+</body>
+
+</html>

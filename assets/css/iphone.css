@@ -1,0 +1,30 @@
+/* iPad */
+@media screen and (min-device-width: 768px) {
+    /* ipad-portrait */
+    @media screen and (max-width: 896px) { 
+        .products_box{
+           height: 8em;
+        }
+    }
+    /* ipad-landscape */
+    @media screen and (min-width: 897px) { 
+        .products_box{
+           height: 8em;
+        }
+    }
+}
+/* iPhone */
+@media screen and (max-device-width: 480px) {
+    /* iphone-portrait */
+    @media screen and (max-width: 400px) { 
+        .products_box{
+           height: 8em;
+        }
+    }
+    /* iphone-landscape */
+    @media screen and (min-width: 401px) { 
+            .products_box{
+           height: 8em;
+            }
+    }
+}
